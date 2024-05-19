@@ -19,5 +19,5 @@ jobs:
 
       - name: Run Test
         run: |
-             python additional.py
+             python3 additional.py
     

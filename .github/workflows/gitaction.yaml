@@ -16,12 +16,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install dependebcy
-        run: |
-             python -m pip install --upgrade pip
-             pip install pytest
-
       - name: Run Test
         run: |
-             python -m pytest additional.py
+             python -m pytest addition.py
     

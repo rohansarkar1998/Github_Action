@@ -1,6 +1,8 @@
 name: execute Python additional
 
-on: [push]
+on: 
+   repository_dispatch:
+      types: [trigger-from-repo1]
 
 jobs:
   build:

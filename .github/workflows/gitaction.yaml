@@ -2,7 +2,7 @@ name: execute Python additional
 
 on: 
    repository_dispatch:
-      types: [trigger-from-repo1]
+      types: [trigger-from-repo2]
 
 jobs:
   build:
